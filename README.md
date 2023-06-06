@@ -8,4 +8,4 @@ taught by:
 
 at:
 
-- Doctoral school in [Cognitive and Brain Sciences]](https://www.unitn.it/drcimec/), Center for Mind/Brain Sciences (CIMeC), University of Trento 
+- Doctoral school in [Cognitive and Brain Sciences](https://www.unitn.it/drcimec/), Center for Mind/Brain Sciences (CIMeC), University of Trento 
