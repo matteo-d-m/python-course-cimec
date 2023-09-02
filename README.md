@@ -4,7 +4,11 @@ This repository contains the final project for the course:
 
 taught by [Luigi Petrucco](https://vigji.github.io) at the Doctoral school in [Cognitive and Brain Sciences](https://www.unitn.it/drcimec/), Center for Mind/Brain Sciences (CIMeC), University of Trento. 
 
-The project consists of a preprocessing pipeline for electroencephalography (EEG) data. The pipeline follows the steps described in the Materials & Methods section of [Alatorre-Cruz, G. C., Downs, H., Hagood, D., Sorensen, S. T., Williams, D. K., & Larson-Prior, L. J. (2022). Effect of Obesity on Arithmetic Processing in Preteens With High and Low Math Skills: An Event-Related Potentials Study. Frontiers in Human Neuroscience, 16, 760234](https://www.frontiersin.org/articles/10.3389/fnhum.2022.760234/full) - a randomly chosen EEG study. 
+The project consists of a preprocessing pipeline for electroencephalography (EEG) data. The pipeline follows the steps described in the Materials & Methods section of 
+
+> [Alatorre-Cruz, G. C., Downs, H., Hagood, D., Sorensen, S. T., Williams, D. K., & Larson-Prior, L. J. (2022). Effect of Obesity on Arithmetic Processing in Preteens With High and Low Math Skills: An Event-Related Potentials Study. Frontiers in Human Neuroscience, 16, 760234](https://www.frontiersin.org/articles/10.3389/fnhum.2022.760234/full)
+
+a randomly chosen EEG study. 
 
 Project structure:
 - `matteos-functions.py` is custom Python module that contains all the functions used throughout the pipelin
