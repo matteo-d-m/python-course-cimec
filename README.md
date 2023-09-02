@@ -2,7 +2,7 @@ This repository contains the final project for the course:
 
 # [Python for (open) Neuroscience](https://github.com/vigji/python-cimec)
 
-taught by [Luigi Petrucco](https://vigji.github.io) at the Doctoral school in [Cognitive and Brain Sciences](https://www.unitn.it/drcimec/), Center for Mind/Brain Sciences (CIMeC), University of Trento. 
+taught by [Luigi Petrucco](https://github.com/vigji) at the Doctoral school in [Cognitive and Brain Sciences](https://www.unitn.it/drcimec/), Center for Mind/Brain Sciences (CIMeC), University of Trento. 
 
 ---
 
@@ -23,8 +23,7 @@ Dependencies:
 - [openneuro-py](https://github.com/hoechenberger/openneuro-py) to download OpenNeuro data automatically
 
 Some preprocessing steps may have a relatively high computational cost (especially independent component analysis - ICA). `config.py` contains an option that skips those steps by default, jumping straight to the computation and plotting of event-related potentials (ERPs) from the data contained in `clean_eeg_epochs.fif`. 
-
-If you don't mind waiting for ICA to run, you can open `config.py` and set `done` to `0`. This will run the pipeline end-to-end (including the download of EEG data from OpenNeuro onto your machine).
+To run the pipeline end-to-end, open `config.py` and set `done` to `0`. Note that this will take some time & will download EEG data from OpenNeuro onto your machine.
 
 In order to save computational resources, the code works on data from one subject only. This too can be changed from `config.py`.
 
