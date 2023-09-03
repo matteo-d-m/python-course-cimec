@@ -32,6 +32,6 @@ You can check if your GPU is CUDA-enabled [here](https://nvidia.custhelp.com/app
 
 # **DISCLAIMER**:
 
-This CNN was first submitted as assignment for the course [Neural Networks & Deep Learning](https://didattica.unipd.it/off/2019/LM/IN/IN2371/005PD/INP9086459/N0) (NNDL) taught at the University of Padova's (Fall 2019 iteration). 
+This CNN was first submitted as assignment for the course [Neural Networks & Deep Learning](https://didattica.unipd.it/off/2019/LM/IN/IN2371/005PD/INP9086459/N0) (NNDL) taught at the University of Padova (Fall 2019 iteration). 
 - The three `.py` files represent a major refactoring of the code submitted for that assignment. The refactoring was geared towards modularity and reusability
 - The `.ipynb` is the exact same file that was submitted for the NNDL assignment. As mentioned above, it is provided for the sole purpose of shortening computation time by leveraging Google Colab's capabilities (if needed)
