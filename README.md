@@ -30,7 +30,7 @@ You can check if your GPU is CUDA-enabled [here](https://nvidia.custhelp.com/app
 
 ---
 
-**DISCLAIMER**:
+# **DISCLAIMER**:
 
 This CNN was first submitted as assignment for the course [Neural Networks & Deep Learning](https://didattica.unipd.it/off/2019/LM/IN/IN2371/005PD/INP9086459/N0) (NNDL) taught at the University of Padova's (Fall 2019 iteration). 
 - The three `.py` files represent a major refactoring of the code submitted for that assignment. The refactoring was geared towards modularity and reusability
