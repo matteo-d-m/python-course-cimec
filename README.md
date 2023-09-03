@@ -8,7 +8,7 @@ taught by [Luigi Petrucco](https://github.com/vigji) at the Doctoral school in [
 
 The project consists of a preprocessing pipeline for electroencephalography (EEG) data. The pipeline follows the steps described in the Materials & Methods section of a randomly chosen EEG paper, in the order they are found in the paper. This paper is: 
 
-> Alatorre-Cruz, G. C., Downs, H., Hagood, D., Sorensen, S. T., Williams, D. K., & Larson-Prior, L. J. (2022). Effect of Obesity on Arithmetic Processing in Preteens With High and Low Math Skills: An Event-Related Potentials Study. Frontiers in Human Neuroscience, 16, 760234. [https://doi.org/10.3389/fnhum.2022.760234](https://doi.org/10.3389/fnhum.2022.760234)
+Alatorre-Cruz, G. C., Downs, H., Hagood, D., Sorensen, S. T., Williams, D. K., & Larson-Prior, L. J. (2022). Effect of Obesity on Arithmetic Processing in Preteens With High and Low Math Skills: An Event-Related Potentials Study. Frontiers in Human Neuroscience, 16, 760234. [https://doi.org/10.3389/fnhum.2022.760234](https://doi.org/10.3389/fnhum.2022.760234)
 
 BIDS-formatted data from this study are publicly available on OpenNeuro at [this HTTPS URL](https://openneuro.org/datasets/ds004019/versions/1.0.0).
 
