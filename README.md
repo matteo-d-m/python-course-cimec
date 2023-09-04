@@ -21,11 +21,11 @@ The project consists of a simple convolutional neural network (CNN) for image re
  
 ---
 
-The CNN is trained, validated and tested on the [MNIST dataset of handwritten digits](https://en.wikipedia.org/wiki/MNIST_database), a standard (actually, overused) benchmark for machine learning models. However, it works on virtually any other vision dataset with little-to-no modifications.
+The CNN is trained, validated and tested on the [MNIST dataset of handwritten digits](https://en.wikipedia.org/wiki/MNIST_database): a standard (actually, overused) benchmark for machine learning models. However, it works on virtually any other vision dataset with little-to-no modifications.
 
 Training and validating CNNs can be computationally intensive. For this reason, PyTorch is geared towards parallel computing on [CUDA-enabled GPUs](https://en.wikipedia.org/wiki/CUDA). If you have one on your machine, the model will run there. If you don't, it will run on your CPU. 
 
-Training on CPU might take too long. To avoid this, you can run `visual_cnn_notebook.ipynb` on Google Colab. This will provide the same results as running the three `.py` files locally, as these are just a better organized, modular version of the `.ipynb`. However, training will be significantly shorter because it will be run on Google's CUDA-enabled GPUs.
+Training on CPU might take too long. To avoid this, you can run `visual_cnn_notebook.ipynb` on Google Colab. This will provide the same results as running the three `.py` files locally, as these are just a better organized, modular version of the `.ipynb`. However, training will be significantly faster because it will run on Google's CUDA-enabled GPUs.
 
 You can check if your GPU is CUDA-enabled [here](https://nvidia.custhelp.com/app/answers/detail/a_id/2137/~/which-gpus-support-cuda%3F). TL;DR: it must be NVIDIA.
 
