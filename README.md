@@ -6,10 +6,10 @@ taught by Luigi Petrucco at the Doctoral school in [Cognitive and Brain Sciences
 
 ---
 
-The project consists of a simple convolutional neural network (CNN) for image recognition. It is structured across three files:
+The project consists of a simple convolutional neural network (CNN) for image recognition. It includes four files:
 - `matteos_module.py`: a custom Python module that contains classes and functions to define, train, validate, test, and inspect the CNN 
 - `master_script.py`: instantiates and calls `matteos_module.py`'s classes and functions in the right order
-- `config.py`: a set of dictionaries that contain important hyperparameters to control the structure and behaviour of the CNN
+- `config.py`: dictionaries that contain important (hyper)parameters to control the structure and behaviour of the CNN
 - `visual_cnn_notebook.ipynb`: a notebook version of the project that collects all the above in a single file
 
 # **Dependencies:**
