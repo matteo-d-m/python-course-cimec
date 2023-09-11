@@ -138,6 +138,8 @@ def train_and_validate(model, device, combination, epochs, dataloaders):
                          weight_decay = combination.weight_decay)
   training_loss_log = []
   validation_loss_log = []
+
+  # LP: since you like being fancy, for the future I recommend the tqdm library for progress bars!
   for epoch in range(epochs):
     training_loss = []
     model.train()
@@ -182,6 +184,7 @@ def combine(hyperparameters):
   candidates -- combinations of hyperparameters values (list of namedtuples)
   """
 
+  # LP even namedtuples! superfancy!
   candidate = namedtuple('Candidate', hyperparameters.keys()) 
   candidates = []
   for combination in product(*hyperparameters.values()): 
@@ -229,6 +232,10 @@ def plot_losses(size, losses, labels):
   labels -- the graph's lables (list)
   """
 
+  # LP: very minor. Stuff that have module configuration effects such as
+  # this one should not be used in a function! Otherwise they have side effects
+  # (unless the function is specifically deputed to have such effectso)
+  # Love the darkstyle though!
   plt.style.use("dark_background")
   plt.figure(figsize=(size[0],size[1]))
   plt.semilogy(losses[0], label=labels[0])

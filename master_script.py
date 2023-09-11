@@ -4,7 +4,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 
 import config
-import matteos_module as matteo
+import matteos_module as matteo # LP: humble module name! :D
 
 device = torch.device("cuda") if torch.cuda.is_available else torch.device("CPU")
 print(f"Device is: {device}")
