@@ -19,12 +19,7 @@ dataloaders = matteo.train_validation_split(dataset=training_dataset,
                                             training_size=config.training_and_validation["training_size"])
 
 
-hyperparameters = {
-                  "dropout_p": config.model_selection["dropout_p"],
-                  "learning_rate": config.model_selection["learning_rate"],
-                  "weight_decay": config.model_selection["weight_decay"]
-                  }  
-hyperparameter_combinations = matteo.combine(hyperparameters)
+hyperparameter_combinations = matteo.combine(config.model_selection)
 
 optimal_hyperparameters = matteo.hyperparameter_tuning(combinations=hyperparameter_combinations,
                                                        device=device,

@@ -208,7 +208,7 @@ def hyperparameter_tuning(combinations, device, dataloaders):
     score = train_and_validate(model=model, 
                                device=device, 
                                combination=combination, 
-                               epochs=config.model_selection["epochs"], 
+                               epochs=config.SELECTION_EPOCHS, 
                                dataloaders=dataloaders) 
     scores.append(score)
   print("Model selection finished!")
@@ -229,7 +229,7 @@ def plot_losses(size, losses, labels):
   Parameters:
   size -- figsize (tuple)
   losses -- the losses to draw (list)
-  labels -- the graph's lables (list)
+  labels -- the graph's labels (list)
   """
 
   # LP: very minor. Stuff that have module configuration effects such as
@@ -277,7 +277,6 @@ def test(model, device, dataloader):
 
 def plot_confusion_matrix(true, predicted, classes):
   """Plots a heatmap-style confusion matrix. 
-  Leverages scikit-learn's 'confusion_matrix()'
 
   Parameters:
   true -- ground truth labels (array-like)

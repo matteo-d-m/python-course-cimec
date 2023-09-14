@@ -27,6 +27,7 @@ training_and_validation = dict(training_size=0.75,
 
 model_selection = dict(dropout_p=[0.25, 0.5],
                        learning_rate=[1e-2, 1e-3, 1e-4],
-                       weight_decay=[1e-4, 1e-5],
-                       epochs=10)
+                       weight_decay=[1e-4, 1e-5])
+
+SELECTION_EPOCHS = 10
 
