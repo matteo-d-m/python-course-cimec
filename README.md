@@ -14,18 +14,24 @@ The project consists of a simple convolutional neural network (CNN) for image re
 
 # **Dependencies:**
 
-- [NumPy](https://github.com/numpy/numpy)
-- [Matplotlib](https://github.com/matplotlib/matplotlib)
-- [PyTorch](https://github.com/pytorch/pytorch) 
-- [torchvision](https://github.com/pytorch/vision)
- 
+| Package | Version tested on |
+|---------|-------------------|
+|[NumPy](https://github.com/numpy/numpy) | 1.23.5 |
+|----------------------------------------|---------|
+|[Matplotlib](https://github.com/matplotlib/matplotlib) | 3.7.1 |
+|-------------------------------------------------------|--------|
+|[PyTorch](https://github.com/pytorch/pytorch)          | 2.0.1  |
+|-------------------------------------------------------|--------|
+|[torchvision](https://github.com/pytorch/vision)       | 0.15.2 | 
+|----------------------------------------------------------------|
+
 ---
 
 The CNN is trained, validated and tested on the [MNIST dataset of handwritten digits](https://en.wikipedia.org/wiki/MNIST_database): a standard (actually, overused) benchmark for machine learning models. However, it works on virtually any other vision dataset with little-to-no modifications.
 
 Training and validating CNNs can be computationally intensive. For this reason, PyTorch is geared towards parallel computing on [CUDA-enabled GPUs](https://en.wikipedia.org/wiki/CUDA). If you have one on your machine, the model will run there. If you don't, it will run on your CPU. 
 
-Training on CPU might take too long. To avoid this, you can run `visual_cnn_notebook.ipynb` on Google Colab. This will provide the same results as running the three `.py` files locally, as these are just a better organized, modular version of the `.ipynb`. However, training will be significantly faster because it will run on Google's CUDA-enabled GPUs.
+Training on CPU might take too long. To avoid this, you can run `visual_cnn_notebook.ipynb` on Google Colab. This will provide the same results as running the three `.py` files locally, as these are just a better organized, modular version of the `.ipynb`. However, training will be significantly faster because it will run on Google's CUDA-enabled GPUs. This project was developed with and tested on version 11.8 of the CUDA Toolkit.
 
 You can check if your GPU is CUDA-enabled [here](https://nvidia.custhelp.com/app/answers/detail/a_id/2137/~/which-gpus-support-cuda%3F). TL;DR: it must be NVIDIA.
 
