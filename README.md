@@ -20,7 +20,7 @@ The project consists of a simple convolutional neural network (CNN) for image re
 |[Matplotlib](https://github.com/matplotlib/matplotlib) | 3.7.1 |
 |[PyTorch](https://github.com/pytorch/pytorch)          | 2.0.1  |
 |[torchvision](https://github.com/pytorch/vision)       | 0.15.2 | 
-
+|-------------------------------------------------------|--------|
 ---
 
 The CNN is trained, validated and tested on the [MNIST dataset of handwritten digits](https://en.wikipedia.org/wiki/MNIST_database): a standard (actually, overused) benchmark for machine learning models. However, it works on virtually any other vision dataset with little-to-no modifications.
