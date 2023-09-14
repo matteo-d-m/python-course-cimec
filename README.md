@@ -17,13 +17,9 @@ The project consists of a simple convolutional neural network (CNN) for image re
 | Package | Version tested on |
 |---------|-------------------|
 |[NumPy](https://github.com/numpy/numpy) | 1.23.5 |
-|----------------------------------------|---------|
 |[Matplotlib](https://github.com/matplotlib/matplotlib) | 3.7.1 |
-|-------------------------------------------------------|--------|
 |[PyTorch](https://github.com/pytorch/pytorch)          | 2.0.1  |
-|-------------------------------------------------------|--------|
 |[torchvision](https://github.com/pytorch/vision)       | 0.15.2 | 
-|----------------------------------------------------------------|
 
 ---
 
